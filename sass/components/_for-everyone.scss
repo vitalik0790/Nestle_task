@@ -3,6 +3,11 @@
   padding-top: 47px;
   padding-bottom: 54px;
 
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__title {
     font-style: normal;
     font-weight: bold;
@@ -12,5 +17,25 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
     color: $title-text-color;
+  }
+
+  &__img {
+    width: 500px;
+    height: 350px;
+    padding-bottom: 20px;
+  }
+
+  &__container {
+    width: 500px;
+  }
+
+  &__paragraph {
+    color: $primary-text-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
   }
 }
