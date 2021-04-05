@@ -1,0 +1,36 @@
+.hydration {
+  color: $title-text-color;
+  padding-top: 47px;
+  padding-bottom: 94px;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: $title-text-color;
+  }
+
+  &__paragraph {
+    color: $primary-text-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+  }
+
+  &__quotation {
+    display: flex;
+    margin: 20px 80px;
+    padding: 25px;
+    justify-content: center;
+    font-size: 16px;
+    font-style: italic;
+    background-color: rgba(150, 250, 250, 0.6);
+  }
+}

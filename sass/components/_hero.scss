@@ -1,0 +1,16 @@
+.hero {
+  width: 100%;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: grey;
+
+  &__title {
+    padding: 5px;
+    color: $title-text-color;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background-color: rgb(236, 237, 238);
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  }
+}
