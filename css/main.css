@@ -74,8 +74,8 @@ body {
 
 .hydration {
   color: #212121;
-  padding-top: 47px;
-  padding-bottom: 54px;
+  padding-top: 40px;
+  padding-bottom: 44px;
 }
 
 .hydration__title {
@@ -111,8 +111,8 @@ body {
 
 .ride {
   color: #212121;
-  padding-top: 47px;
-  padding-bottom: 54px;
+  padding-top: 40px;
+  padding-bottom: 44px;
 }
 
 .ride__title {
@@ -186,8 +186,8 @@ body {
 
 .footer {
   background: #2f303a;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .footer__container {
@@ -514,7 +514,7 @@ body {
 }
 
 .news .slider__button {
-  margin-right: 10px;
+  margin-right: 8px;
   display: block;
   color: #fff;
   font-size: 0.8125rem;
@@ -544,7 +544,7 @@ body {
 
 .news .slider .slick-arrow {
   position: absolute;
-  top: 46%;
+  top: 44%;
   z-index: 10;
   font-size: 0;
   width: 25px;
