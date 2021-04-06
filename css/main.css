@@ -210,7 +210,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
 }
 
@@ -227,7 +227,6 @@ body {
 
 .footer-join {
   width: 206px;
-  margin-bottom: 60px;
   text-align: center;
 }
 
