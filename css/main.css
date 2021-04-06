@@ -252,7 +252,7 @@ body {
 }
 
 .footer-join__link:hover, .footer-join__link:hover {
-  background-color: #2196f3;
+  background-color: #63513d;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
