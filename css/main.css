@@ -759,7 +759,7 @@ body {
   left: 5px;
   width: 55px;
   height: 55px;
-  background: url("./icons/left-arrow.svg") 0 0/70% no-repeat;
+  background: url("../../icons/left-arrow.svg") 0 0/70% no-repeat;
   background-position: center;
   background-color: #fff;
   border-radius: 10px;
@@ -770,7 +770,7 @@ body {
   right: 5px;
   width: 55px;
   height: 55px;
-  background: url("icons/right-arrow.svg") 0 0/70% no-repeat;
+  background: url("../../icons/right-arrow.svg") 0 0/70% no-repeat;
   background-position: center;
   background-color: #fff;
   border-radius: 10px;
