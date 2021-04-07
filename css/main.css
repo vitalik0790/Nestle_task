@@ -384,11 +384,12 @@ body {
 .footer-join {
   width: 206px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1200px) {
   .footer-join {
-    text-align: center;
+    margin-bottom: 0px;
   }
 }
 
@@ -855,12 +856,18 @@ body {
 }
 
 .footer-logo {
-  width: 300px;
+  width: 150px;
 }
 
 @media screen and (min-width: 768px) {
   .footer-logo {
     width: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    width: 300px;
   }
 }
 
