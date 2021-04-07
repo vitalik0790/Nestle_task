@@ -55,7 +55,6 @@ body {
 }
 
 .hero {
-  width: 100%;
   border-top-width: 2px;
   border-top-style: solid;
   border-top-color: grey;
@@ -218,6 +217,7 @@ body {
     width: 400px;
     height: 250px;
     margin-bottom: 0;
+    float: right;
   }
 }
 
@@ -588,7 +588,7 @@ body {
 }
 
 .news .slider__svg-container {
-  width: 105px;
+  width: 78px;
   display: flex;
   height: 15px;
   text-align: center;
@@ -867,7 +867,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .footer-logo {
-    width: 300px;
+    width: 210px;
   }
 }
 
