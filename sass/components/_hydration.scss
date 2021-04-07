@@ -1,7 +1,17 @@
 .hydration {
   color: $title-text-color;
-  padding-top: 40px;
-  padding-bottom: 44px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
   &__title {
     font-style: normal;
@@ -10,8 +20,16 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: $title-text-color;
+
+    @media screen and(min-width: 768px) {
+      margin-bottom: 40px;
+    }
+
+    @media screen and(min-width: 1200px) {
+      margin-bottom: 50px;
+    }
   }
 
   &__paragraph {
