@@ -46,11 +46,15 @@
 
   &__quotation {
     display: flex;
-    margin: 20px 80px;
+    margin: 20px 40px;
     padding: 25px;
     justify-content: center;
     font-size: 18px;
     font-style: italic;
     background-color: rgba(150, 250, 250, 0.6);
+
+    @media screen and(min-width: 768px) {
+      margin: 20px 80px;
+    }
   }
 }

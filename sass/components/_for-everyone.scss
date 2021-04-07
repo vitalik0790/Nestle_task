@@ -76,6 +76,15 @@
 
   &__container--first {
     padding-bottom: 15px;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      width: 355px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 550px;
+    }
   }
 
   &__paragraph {
