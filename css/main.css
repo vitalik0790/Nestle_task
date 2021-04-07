@@ -65,10 +65,25 @@ body {
   padding: 5px;
   color: #212121;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 32px;
   background-color: #ecedee;
   text-transform: uppercase;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__title {
+    text-align: start;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    text-align: start;
+    font-size: 40px;
+  }
 }
 
 .hydration {
@@ -94,7 +109,7 @@ body {
 .hydration__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -105,12 +120,14 @@ body {
 @media screen and (min-width: 768px) {
   .hydration__title {
     margin-bottom: 40px;
+    font-size: 36px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hydration__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -157,7 +174,7 @@ body {
 .ride__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -168,12 +185,14 @@ body {
 @media screen and (min-width: 768px) {
   .ride__title {
     margin-bottom: 40px;
+    font-size: 36px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .ride__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -213,7 +232,7 @@ body {
 
 .for-everyone {
   color: #212121;
-  padding-top: 35px;
+  padding-top: 10px;
   padding-bottom: 35px;
 }
 
@@ -248,7 +267,7 @@ body {
 .for-everyone__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -259,12 +278,14 @@ body {
 @media screen and (min-width: 768px) {
   .for-everyone__title {
     margin-bottom: 40px;
+    font-size: 36px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .for-everyone__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -517,21 +538,19 @@ body {
 @media screen and (min-width: 768px) {
   .news__title {
     margin-bottom: 30px;
-    display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .news__title {
     margin-bottom: 40px;
-    display: none;
   }
 }
 
 .news .slider {
   min-width: 0;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -727,7 +746,7 @@ body {
 
 .news .slider .slick-list {
   overflow: hidden;
-  height: 383px;
+  height: 148px;
 }
 
 @media screen and (min-width: 768px) {
