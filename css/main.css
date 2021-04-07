@@ -85,6 +85,10 @@ body {
   }
 }
 
+.hero__img {
+  width: 100%;
+}
+
 .hydration {
   color: #212121;
   padding-top: 30px;
