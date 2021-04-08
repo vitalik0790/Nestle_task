@@ -611,7 +611,7 @@ body {
 }
 
 .news .slider__svg-container {
-  width: 78px;
+  width: 80px;
   display: flex;
   height: 15px;
   text-align: center;
@@ -726,7 +726,7 @@ body {
 .news .slider__description {
   width: 100%;
   left: 50%;
-  top: 155px;
+  top: 151px;
   transform: translate(-50%);
   align-items: center;
   position: absolute;
